@@ -1,7 +1,3 @@
-
-int   hell(int b=0)
-{
-  
-  return 0;
-}
-
+(defun hello(name)(insert "Hello " name))
+(hello "you")
+(switch-to-buffer-other-window "*test*")
